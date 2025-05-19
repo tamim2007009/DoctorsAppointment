@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "974779717352",
+    "firebase_url": "https://labcode-ae3bd-default-rtdb.firebaseio.com",
+    "project_id": "labcode-ae3bd",
+    "storage_bucket": "labcode-ae3bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974779717352:android:2bda188ec1f9d72ab91b5d",
+        "android_client_info": {
+          "package_name": "com.tamim.appointment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYeUYqEn_PH7Wp8ssG7xOOWwjiDuaC8Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
