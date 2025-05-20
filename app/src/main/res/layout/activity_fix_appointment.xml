@@ -14,7 +14,7 @@
         android:textColor="@color/mainTextColor"
         android:textSize="25sp"
         android:paddingLeft="20dp"
-        android:text="Vaibhav Mojidra"></TextView>
+        android:text="Foyez Ahmed"></TextView>
     <TextView
         android:id="@+id/spl"
         android:layout_marginTop="10dp"
@@ -34,7 +34,7 @@
         android:textSize="18sp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Mumbai"></TextView>
+        android:text="Medicine"></TextView>
     <TextView
         android:id="@+id/addr"
         android:layout_marginTop="10dp"
@@ -44,7 +44,7 @@
         android:textSize="18sp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Address: sdfdsssssssssssssssssss"></TextView>
+        android:text="Address: Dhaka"></TextView>
     <TextView
         android:id="@+id/date"
         android:layout_marginTop="20dp"
