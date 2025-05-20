@@ -94,20 +94,8 @@ public class DoctorMainActivity extends AppCompatActivity implements NavigationV
         navigationView = findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        SwitchCompat switchCompat = (SwitchCompat) navigationView.getMenu().findItem(R.id.nav_switch).getActionView();
-        boolean isDarkMode = getSharedPreferences("STORAGE", MODE_PRIVATE).getBoolean("IS_DARKMODE_ENABLED", false);
-        switchCompat.setChecked(isDarkMode);
 
-        switchCompat.setOnCheckedChangeListener((buttonView, isChecked) -> {
-            getSharedPreferences("STORAGE", MODE_PRIVATE)
-                    .edit()
-                    .putBoolean("IS_DARKMODE_ENABLED", isChecked)
-                    .apply();
 
-            AppCompatDelegate.setDefaultNightMode(
-                    isChecked ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO
-            );
-        });
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawerLayout, toolbar,
