@@ -1,5 +1,4 @@
 package com.tamim.appointment;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -45,7 +44,7 @@ public class SplashScreen extends AppCompatActivity {
                 }
             }
         };
-        handler.postDelayed(runnable,2000);
+        handler.postDelayed(runnable,1000);
     }
 
     @Override
