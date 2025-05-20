@@ -1,18 +1,18 @@
 package com.tamim.appointment.DataRetrievalClass;
 
 public class UserDetails {
-    private String Email, FirstName, LastName, MobileNo, UserType, UserBalance,UserId;
+    private String Email, FirstName, LastName, MobileNo, UserType,UserId;
 
     public UserDetails() {
     }
 
-    public UserDetails(String email, String firstName, String lastName, String mobileNo, String userType, String userBalance, String userId) {
+    public UserDetails(String email, String firstName, String lastName, String mobileNo, String userType,  String userId) {
         Email = email;
         FirstName = firstName;
         LastName = lastName;
         MobileNo = mobileNo;
         UserType = userType;
-        UserBalance = userBalance;
+
         UserId = userId;
     }
 
@@ -56,13 +56,7 @@ public class UserDetails {
         UserType = userType;
     }
 
-    public String getUserBalance() {
-        return UserBalance;
-    }
 
-    public void setUserBalance(String userBalance) {
-        UserBalance = userBalance;
-    }
 
     public String getUserId() {
         return UserId;

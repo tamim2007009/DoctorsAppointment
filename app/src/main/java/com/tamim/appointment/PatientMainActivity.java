@@ -1,7 +1,6 @@
 package com.tamim.appointment;
 
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
@@ -85,11 +84,9 @@ public class PatientMainActivity extends AppCompatActivity implements Navigation
 
         TextView name = findViewById(R.id.name);
         TextView initials = findViewById(R.id.iniTv);
-        TextView balance = findViewById(R.id.textUserBalance);
 
         name.setText(userDetails.getFirstName() + " " + userDetails.getLastName());
         initials.setText(userDetails.getFirstName().charAt(0) + "" + userDetails.getLastName().charAt(0));
-        balance.setText("Balance : " + userDetails.getUserBalance() + " Rs");
 
         drawerLayout = findViewById(R.id.drawer_layout);
         Toolbar toolbar = findViewById(R.id.toolBar);

@@ -19,7 +19,7 @@ public class AdminDashboard extends AppCompatActivity {
 
 
         AddD=findViewById(R.id.bAddDoctor);
-        AddP=findViewById(R.id.bAddPayment);
+
         AddDisease=findViewById(R.id.bDisease);
 
 
@@ -30,12 +30,7 @@ public class AdminDashboard extends AppCompatActivity {
             }
         });
 
-        AddP.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(AdminDashboard.this,CreditMoney.class));
-            }
-        });
+
 
         AddDisease.setOnClickListener(new View.OnClickListener() {
             @Override

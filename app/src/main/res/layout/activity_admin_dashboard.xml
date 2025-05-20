@@ -33,17 +33,6 @@
         app:layout_constraintVertical_bias="0.437" />
 
     <Button
-        android:id="@+id/bAddPayment"
-        android:layout_width="357dp"
-        android:layout_height="56dp"
-        android:text="ADD PAYMENT"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.536" />
-
-    <Button
         android:id="@+id/bDisease"
         android:layout_width="357dp"
         android:layout_height="56dp"
@@ -52,5 +41,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
+        app:layout_constraintVertical_bias="0.56" />
 </androidx.constraintlayout.widget.ConstraintLayout>
