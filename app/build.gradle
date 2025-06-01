@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.tamim.appointment'
+    namespace 'com.asdf.appointment'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.tamim.appointment"
+        applicationId "com.asdf.appointment"
         minSdk 24
         targetSdk 33
         versionCode 1
